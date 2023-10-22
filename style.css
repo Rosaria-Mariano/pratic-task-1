@@ -1,0 +1,51 @@
+/*header style*/
+header {
+   text-align: center; 
+   Padding: 20px;
+}
+/*navigation menu style*/
+nav {
+   text-align: center;
+   word-spacing: 30px;
+   padding: 10px;
+}
+/*creating the two-column layout*/
+*{
+   box-sizing: border-box;
+}
+.row {
+   display: flex;
+   flex-wrap: wrap;
+}
+.post-text-box {
+   flex: 70%;
+   padding: 20px;
+}
+.profile {
+   flex: 70%;
+   padding: 20px;
+}
+/*profile image and heading style*/
+.profile img {
+   width: 150px;
+   display: block;
+   margin-left: 0;
+   margin-right: 0;
+}
+.profile h1 {
+   text-align: center;
+}
+/*navigation bar style*/
+nav {
+   text-align: center;
+   word-spacing: 30px;
+   padding: 10px;
+   background-color: #12f5f5;
+   font-family: Tahoma;   
+}
+/*navigation bar button style*/
+nav a {
+   color: #7d10e4;
+   text-decoration: none;
+   font-size: larger;
+}
